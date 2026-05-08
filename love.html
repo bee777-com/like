@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>莎朗嘿呦 乖乖 💖</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑", sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 50px 30px;
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .title {
+            font-size: 42px;
+            color: #ff5e84;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .korean {
+            font-size: 26px;
+            color: #ff8da1;
+            margin: 15px 0;
+        }
+
+        .heart {
+            font-size: 60px;
+            margin: 20px 0;
+            animation: beat 1s infinite alternate;
+        }
+
+        @keyframes beat {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.15); }
+        }
+
+        .text {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.8;
+            margin: 20px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 40px;
+            background: #ff5e84;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ff3366;
+            transform: translateY(-3px);
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heart">💖💛💙</div>
+        <h1 class="title">莎朗嘿呦 乖乖</h1>
+        <div class="korean">사랑해요 꿀이야</div>
+
+        <div class="text">
+            莎朗嘿呦 = 我爱你<br>
+            乖乖 = 最温柔的称呼<br>
+            这是全世界最甜、最暖、最专属的一句话
+        </div>
+
+        <div class="text">
+            因为是你<br>
+            所以满心欢喜<br>
+            所以温柔以待
+        </div>
+
+        <button class="btn" onclick="sayLove()">点击说爱你 💘</button>
+    </div>
+
+    <footer>💖 专属温柔 · 只此一份 💖</footer>
+
+    <script>
+        function sayLove() {
+            alert("莎朗嘿呦～乖乖！사랑해! 💖")
+        }
+    </script>
+</body>
+</html>
